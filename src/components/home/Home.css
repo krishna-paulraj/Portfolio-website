@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Kaushan+Script&family=Lexend+Peta:wght@100&display=swap');
+.home{
+  width: 100%;
+  height: 80vh;
+}
+
+.home-container{
+  display: flex;
+}
+
+.home-area-left{
+  width: 50%;
+  height: 80vh;
+}
+
+.text-area{
+  line-height: 20px;
+  position: relative;
+  top: 35%;
+  left: 20%;
+}
+
+.text-area > h1 ,h2{
+  font-family: 'Belanosima', sans-serif;
+}
+
+.text-area > h1{
+  font-size: 50px;
+}
+
+.text-area > h2{
+  font-size: 40px;
+}
+
+.text-area > h4{
+  font-family: 'Lexend Peta', sans-serif;
+  transition: all ease-in-out 1s;
+}
+
+.text-area > h4:hover{
+  color: aqua;
+}
+
+.name-k {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 60px;
+  color:rgb(53, 53, 193);
+  margin-left: 15px;
+  transition: all ease 0.5s;
+}
+
+.name-k:hover {
+  font-size: 70px;
+}
+
+
+/* Home Right Side */
+
+.home-area-right{
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: transparent;
+
+}
+
+.upper{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.upper > h1 {
+  font-family: Fasthand;
+  line-height: 0;
+}
+
+.lower{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.lower > h1 {
+  font-family: Fasthand;
+  line-height: 0;
+}
+
+/* Center Divs */
+
+.center-up{
+  width: 100%;
+  height: 0vh;
+  transition: all ease 0.5s;
+}
+
+.center-down{
+  width: 100%;
+  height: 0vh;
+  transition: all ease 0.5s;
+
+}
+
+/* Images */
+
+.img-all{
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.custom-link {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  color: aliceblue;
+  font-family: 'Lexend Peta', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  opacity: 0;
+  transition: all ease 2s;
+
+}
+
+.img{
+  width: 0vh;
+  height: 0vh;
+  opacity: 0;
+  transition: all ease 1s;
+}
+
+.img-one{
+  bottom: 55%;
+  right: 30%;
+}
+
+.img-two{
+  top: 45%;
+  left: 80%;
+  
+}
+
+.img-three{
+  top: 60%;
+  right: 28%;
+}
+
+.img-1{
+  filter: blur(1px);
+}
+
+.img-2{
+  filter: blur(2px);
+}
+
+.img-3{
+  filter: blur(5px);
+}
