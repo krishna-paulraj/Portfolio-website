@@ -11,6 +11,8 @@ const Home = () => {
     const handleMouseMoveOver = () => {
       document.querySelector(".center-up").style.height = "60vh";
       document.querySelector(".center-down").style.height = "60vh";
+      document.querySelector(".upper-h1").style.filter = "blur(5px)";
+      document.querySelector(".lower-h1").style.filter = "blur(5px)";
 
       const link = document.querySelectorAll(".custom-link");
       link.forEach((link) => {
@@ -28,6 +30,8 @@ const Home = () => {
     const handleMouseMoveOut = () => {
       document.querySelector(".center-up").style.height = "0vh";
       document.querySelector(".center-down").style.height = "0vh";
+      document.querySelector(".upper-h1").style.filter = "blur(0px)";
+      document.querySelector(".lower-h1").style.filter = "blur(0px)";
 
       const link = document.querySelectorAll(".custom-link");
       link.forEach((link) => {
@@ -84,12 +88,12 @@ const Home = () => {
         </div>
         <div className="home-area-right">
           <div className="upper">
-            <h1>Explore</h1>
+            <h1 className="upper-h1">Explore</h1>
           </div>
           <div className="center-up"></div>
           <div className="center-down"></div>
           <div className="lower">
-            <h1>Me</h1>
+            <h1 className="lower-h1">Me</h1>
           </div>
           <div id="one" className="img-all img-one">
             <img
@@ -128,17 +132,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// document
-//       .querySelector(".home-area-right")
-//       .addEventListener("mousemove", () => {
-//         document.querySelector(".center-up").style.height = "60vh";
-//         document.querySelector(".center-down").style.height = "60vh";
-//       });
-
-//     document
-//       .querySelector(".home-area-right")
-//       .addEventListener("mousemove", () => {
-//         document.querySelector(".center-up").style.height = "0vh";
-//         document.querySelector(".center-down").style.height = "0vh";
-//       });

@@ -74,9 +74,10 @@
   align-items: flex-end;
 }
 
-.upper > h1 {
+.upper-h1 {
   font-family: Fasthand;
   line-height: 0;
+  transition: all ease 1s;
 }
 
 .lower{
@@ -87,9 +88,11 @@
   align-items: flex-start;
 }
 
-.lower > h1 {
+.lower-h1 {
   font-family: Fasthand;
   line-height: 0;
+  transition: all ease 1s;
+
 }
 
 /* Center Divs */
@@ -157,9 +160,10 @@
 }
 
 .img-2{
-  filter: blur(2px);
+  filter: blur(1px);
+
 }
 
 .img-3{
-  filter: blur(5px);
+  filter: blur(1px);
 }
