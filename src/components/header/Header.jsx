@@ -22,11 +22,6 @@ const Header = () => {
             </Link>
           </li>
           <li className="navbar-item">
-            <Link to="/services" className="navbar-link">
-              Services
-            </Link>
-          </li>
-          <li className="navbar-item">
             <Link to="/contact" className="navbar-link">
               Contact
             </Link>

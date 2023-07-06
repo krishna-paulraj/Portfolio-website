@@ -73,58 +73,56 @@ const Home = () => {
   }, [images.length]);
 
   return (
-    <div className="home">
-      <div className="home-container">
-        <div className="home-area-left">
-          <div className="text-area">
-            <h1>Hi,</h1>
-            <h2>
-              I'm
-              <span className="name-k">K</span>
-              rishna
-            </h2>
-            <h4>Full Stack Developer | Student </h4>
-          </div>
+    <div className="home-container">
+      <div className="home-area-left">
+        <div className="text-area">
+          <h1>Hi,</h1>
+          <h2>
+            I'm
+            <span className="name-k">K</span>
+            rishna
+          </h2>
+          <h4>Full Stack Developer | Student </h4>
         </div>
-        <div className="home-area-right">
-          <div className="upper">
-            <h1 className="upper-h1">Explore</h1>
-          </div>
-          <div className="center-up"></div>
-          <div className="center-down"></div>
-          <div className="lower">
-            <h1 className="lower-h1">Me</h1>
-          </div>
-          <div id="one" className="img-all img-one">
-            <img
-              className="img img-1"
-              src={images[currentIndex]}
-              alt="Changing"
-            />
-            <Link to="/about" className="custom-link">
-              <h1>Projects</h1>
-            </Link>
-          </div>
-          <div id="two" className="img-all img-two">
-            <img
-              className="img img-2"
-              src={images2[currentIndex]}
-              alt="Changing"
-            />
-            <Link to="/about" className="custom-link">
-              <h1>Skills</h1>
-            </Link>
-          </div>
-          <div id="three" className="img-all img-three">
-            <img
-              className="img img-3"
-              src={images3[currentIndex]}
-              alt="Changing"
-            />
-            <Link to="/about" className="custom-link">
-              <h1>Photos</h1>
-            </Link>
-          </div>
+      </div>
+      <div className="home-area-right">
+        <div className="upper">
+          <h1 className="upper-h1">Explore</h1>
+        </div>
+        <div className="center-up"></div>
+        <div className="center-down"></div>
+        <div className="lower">
+          <h1 className="lower-h1">Me</h1>
+        </div>
+        <div id="one" className="img-all img-one">
+          <img
+            className="img img-1"
+            src={images[currentIndex]}
+            alt="Changing"
+          />
+          <Link to="/about" className="custom-link">
+            <h1>Projects</h1>
+          </Link>
+        </div>
+        <div id="two" className="img-all img-two">
+          <img
+            className="img img-2"
+            src={images2[currentIndex]}
+            alt="Changing"
+          />
+          <Link to="/about" className="custom-link">
+            <h1>Skills</h1>
+          </Link>
+        </div>
+        <div id="three" className="img-all img-three">
+          <img
+            className="img img-3"
+            src={images3[currentIndex]}
+            alt="Changing"
+          />
+          <Link to="/about" className="custom-link">
+            <h1>Photos</h1>
+          </Link>
         </div>
       </div>
     </div>
