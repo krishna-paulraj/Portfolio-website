@@ -87,12 +87,14 @@ const Home = () => {
       </div>
       <div className="home-area-right">
         <div className="upper">
-          <h1 className="upper-h1">Explore</h1>
+          <div className="text-border">
+            <h1 className="upper-h1 banner-text">Explore Me</h1>
+          </div>
         </div>
         <div className="center-up"></div>
         <div className="center-down"></div>
         <div className="lower">
-          <h1 className="lower-h1">Me</h1>
+          <h1 className="lower-h1 banner-text">. . .</h1>
         </div>
         <div id="one" className="img-all img-one">
           <img

@@ -62,37 +62,40 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: transparent;
-
+  background-image: url("../images/banner.jpeg");
+  background-position: left 0;
 }
 
 .upper{
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.upper-h1 {
-  font-family: Fasthand;
+
+.banner-text {
+  font-family: fantasy;
+  font-size: 25px;
+  color: white;
+  padding: 5px 100px 5px 100px;
   line-height: 0;
   transition: all ease 1s;
+}
+
+.text-border {
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .lower{
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-}
-
-.lower-h1 {
-  font-family: Fasthand;
-  line-height: 0;
-  transition: all ease 1s;
-
 }
 
 /* Center Divs */
