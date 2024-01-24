@@ -1,50 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Kaushan+Script&family=Lexend+Peta:wght@100&display=swap');
-.home{
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Kaushan+Script&family=Lexend+Peta:wght@100&display=swap");
+.home {
   width: 100%;
   min-height: 80vh;
 }
 
-.home-container{
+.home-container {
   display: flex;
 }
 
-.home-area-left{
+.home-area-left {
   width: 50%;
   height: 80vh;
 }
 
-.text-area{
+.text-area {
   line-height: 20px;
   position: relative;
   top: 35%;
   left: 20%;
 }
 
-.text-area > h1 ,h2{
-  font-family: 'Belanosima', sans-serif;
+.text-area > h1,
+h2 {
+  font-family: "Belanosima", sans-serif;
 }
 
-.text-area > h1{
+.text-area > h1 {
   font-size: 50px;
 }
 
-.text-area > h2{
+.text-area > h2 {
   font-size: 40px;
 }
 
-.text-area > h4{
-  font-family: 'Lexend Peta', sans-serif;
+.text-area > h4 {
+  font-family: "Lexend Peta", sans-serif;
   transition: all ease-in-out 1s;
 }
 
-.text-area > h4:hover{
+.text-area > h4:hover {
   color: aqua;
 }
 
 .name-k {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   font-size: 60px;
-  color:rgb(53, 53, 193);
+  color: rgb(53, 53, 193);
   margin-left: 15px;
   transition: all ease 0.5s;
 }
@@ -53,27 +54,24 @@
   font-size: 70px;
 }
 
-
 /* Home Right Side */
 
-.home-area-right{
+.home-area-right {
   width: 50%;
   height: 80vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-image: url("../images/banner.jpeg");
-  background-position: left 0;
+  background-image: url("../images/banner.jpg");
 }
 
-.upper{
+.upper {
   width: 100%;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-
 
 .banner-text {
   font-family: fantasy;
@@ -90,7 +88,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.lower{
+.lower {
   width: 100%;
   height: 30vh;
   display: flex;
@@ -100,22 +98,21 @@
 
 /* Center Divs */
 
-.center-up{
+.center-up {
   width: 100%;
   height: 0vh;
   transition: all ease 0.5s;
 }
 
-.center-down{
+.center-down {
   width: 100%;
   height: 0vh;
   transition: all ease 0.5s;
-
 }
 
 /* Images */
 
-.img-all{
+.img-all {
   position: absolute;
   background-size: cover;
   background-position: center;
@@ -127,46 +124,50 @@
   top: 25%;
   left: 15%;
   color: aliceblue;
-  font-family: 'Lexend Peta', sans-serif;
+  font-family: "Lexend Peta", sans-serif;
   text-decoration: none;
   font-size: 15px;
   opacity: 0;
   transition: all ease 2s;
-
 }
 
-.img{
+.img {
   width: 0vh;
   height: 0vh;
   opacity: 0;
   transition: all ease 1s;
 }
 
-.img-one{
+.img-one {
   bottom: 55%;
   right: 30%;
 }
 
-.img-two{
+.img-two {
   top: 45%;
   left: 80%;
-  
 }
 
-.img-three{
+.img-three {
   top: 60%;
   right: 28%;
 }
 
-.img-1{
+.img-1 {
   filter: blur(1px);
 }
 
-.img-2{
-  filter: blur(1px);
-
-}
-
-.img-3{
+.img-2 {
   filter: blur(1px);
 }
+
+.img-3 {
+  filter: blur(1px);
+}
+
+@media only screen and (max-width: 600px) {
+  .home-area-right {
+    visibility: hidden;
+  }
+}
+

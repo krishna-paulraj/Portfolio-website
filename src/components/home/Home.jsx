@@ -79,8 +79,8 @@ const Home = () => {
           <h1>Hi,</h1>
           <h2>
             I'm
-            <span className="name-k">K</span>
-            rishna
+            <span className="name-k">A</span>
+            kshata
           </h2>
           <h4>Full Stack Developer | Student </h4>
         </div>
